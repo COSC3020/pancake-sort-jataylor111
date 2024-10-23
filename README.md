@@ -29,3 +29,14 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+-----------------------------------------------------------------------------------
+
+First my comparisons.  This will be $\Theta(n^2)$, this is because at first it enters a while loop that will run the length of the array by starting with the length and incrementing down it.  Next there is a nested for loop that is also based on the variable "n" that will start at the length of the array and while it gets smaller as the while loop goes on, it still is linear time. Thus the runtime of this part is $\Theta(n*n) = \Theta(n^2)$
+
+Next is the flips.  This has a runtime of $\Theta(n)$.  Since it contains just a single while loop that runs in linear time.
+
+
+I wanted to get a better grasp of the concepts so I used this wikipedia article (https://en.wikipedia.org/wiki/Pancake_sorting) but I intentionally did not go over their code because I didn't want to get trapped in their method, I did compare my final product to their python code however.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
+
