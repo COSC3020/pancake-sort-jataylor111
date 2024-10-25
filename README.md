@@ -36,7 +36,7 @@ First my comparisons.  This will be $\Theta(n^2)$, this is because at first it e
 Next is the flips.  This has a runtime of $\Theta(n)$.  Since it contains just a single while loop that runs in linear time.
 
 
-I wanted to get a better grasp of the concepts so I used this wikipedia article (https://en.wikipedia.org/wiki/Pancake_sorting) but I intentionally did not go over their code because I didn't want to get trapped in their method, I did compare my final product to their python code however.
+I wanted to get a better grasp of the concepts so I used this wikipedia article (https://en.wikipedia.org/wiki/Pancake_sorting) but I intentionally did not go over their code because I didn't want to get trapped in their method, I did compare my final product to their python code and added a line to mine because when I saw it I thought that maybe I over looked something, it is marked in my code.
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
 
